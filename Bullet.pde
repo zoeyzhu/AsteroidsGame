@@ -18,8 +18,7 @@ class Bullet extends Floater {
     ellipse((float)myCenterX, (float)myCenterY, 5, 5);
   }
   
-
-  
+ 
   public void move ()   //move the floater in the current direction of travel
   {      
     //change the x and y coordinates by myXspeed and myYspeed       
