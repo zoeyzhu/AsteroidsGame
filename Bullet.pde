@@ -18,31 +18,17 @@ class Bullet extends Floater {
     ellipse((float)myCenterX, (float)myCenterY, 5, 5);
   }
   
-  //public void move ()
-  //{      
-  //  myCenterX += myXspeed;    
-  //  myCenterY += myYspeed;    
 
-  //  //wrap around screen    
-  //  if(myCenterX >width)
-  //  {     
-  //  shots.remove(this);    
-  //  }    
-  //  else if (myCenterX<0)
-  //  {     
-  //    shots.remove(this);   
-  //  }    
-  //  if(myCenterY >height)
-  //  {    
-  //    shots.remove(this); 
-  //  } 
-    
-  //  else if (myCenterY < 0)
-  //  {     
-  //    shots.remove(this);    
-  //  }   
-  //}
   
+  public void move ()   //move the floater in the current direction of travel
+  {      
+    //change the x and y coordinates by myXspeed and myYspeed       
+    myCenterX += myXspeed;    
+    myCenterY += myYspeed;     
+
+    //wrap around screen    
+ 
+  }  
   public float getX(){
    return(float) myCenterX; 
   }
